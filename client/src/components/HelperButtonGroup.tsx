@@ -13,6 +13,7 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import TwitterIcon from '@mui/icons-material/Twitter'
+import LinkedInIcon from "@mui/icons-material/LinkedIn"
 import VideogameAssetIcon from '@mui/icons-material/VideogameAsset'
 import VideogameAssetOffIcon from '@mui/icons-material/VideogameAssetOff'
 
@@ -206,18 +207,23 @@ export default function HelperButtonGroup() {
             </Tooltip>
           </>
         )}
-        <Tooltip title="Visit Our GitHub">
+        <Tooltip title="Visit my GitHub">
           <StyledFab
             size="small"
-            href="https://github.com/kevinshen56714/SkyOffice"
+            href="https://github.com/Assasingh7/metax"
             target="_blank"
           >
             <GitHubIcon />
           </StyledFab>
         </Tooltip>
-        <Tooltip title="Follow Us on Twitter">
-          <StyledFab size="small" href="https://twitter.com/SkyOfficeApp" target="_blank">
+        <Tooltip title="Add me on Twitter">
+          <StyledFab size="small" href="https://x.com/assasingh2003?t=OFkLVQdseoh3_2MXsigZhQ&s=08" target="_blank">
             <TwitterIcon />
+          </StyledFab>
+        </Tooltip>
+        <Tooltip title="Add me on Linkedin">
+          <StyledFab size="small" href="https://www.linkedin.com/in/assa-singh-1b06ab334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <LinkedInIcon />
           </StyledFab>
         </Tooltip>
         <Tooltip title="Switch Background Theme">
